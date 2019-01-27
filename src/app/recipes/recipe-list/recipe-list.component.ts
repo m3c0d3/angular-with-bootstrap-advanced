@@ -10,8 +10,8 @@ export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('A Test Recipe', 'This is simply a test',
       'http://www.rajnisrecipe.com/wp-content/uploads/2016/12/pasta.jpg'),
-    new Recipe('A Test Recipe', 'This is simply a test',
-      'http://www.rajnisrecipe.com/wp-content/uploads/2016/12/pasta.jpg')
+    new Recipe('A Test Recipe', 'This is simply a test2',
+      'http://www.manjulaskitchen.com/blog/wp-content/uploads/bread_burfi.jpg?x45960')
   ];
 
   constructor() {
